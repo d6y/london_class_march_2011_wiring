@@ -1,0 +1,14 @@
+This is one of the projects used at @dpp's Lift course held at Skillsmatter, London, March 2010.
+
+The code is the state of the code at the end of the class, and as such probably isn't going to make a lot of sense but might contain something someone can find useful.
+
+From my notes:
+ * this project was a demonstration of Wiring, where Torsten asked about managing bi-directional updates via an example of a currency conversion: enter euros in one field and have the dollar field update, but also go the other way, and have Lift manage it all for us.  
+ * main files touched: snippet/Wired.scala and webapp/index.html
+ * See: http://stable.simply.liftweb.net/#toc-Chapter-6
+ 
+Run with:
+
+  $ sbt
+  > update
+  > jetty-run
